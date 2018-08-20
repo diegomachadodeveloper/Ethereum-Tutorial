@@ -4,7 +4,9 @@ Um simples tutorial de como interagir com Ethereum
 Instala o Ethereum mas não execute
 
 Iniciar um core a partir de um arquivo genesis
+<pre>
 geth.exe init genesis.json --datadir data-private
+</pre>
 
 Executar Geth (Servidor)
 geth --datadir data-private\
