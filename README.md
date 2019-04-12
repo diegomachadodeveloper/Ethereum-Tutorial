@@ -27,6 +27,11 @@ Private Network
 geth.exe attach ipc:\\.\pipe\geth.ipc
 </pre>
 
+Main Network
+<pre>
+geth --verbosity 3 --rpc --rpcaddr="localhost" --rpccorsdomain "YOUR-DOMAIN:PORT" --rpcapi="db,eth,net,web3,personal"
+</pre>
+
 MAC
 <pre>
 geth attach ipc:/Users/SEUNOME/Library/Ethereum/geth.ipc
