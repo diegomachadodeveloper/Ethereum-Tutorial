@@ -12,9 +12,9 @@ geth.exe init genesis.json --datadir data-private
 </pre>
 
 Executar Geth (Servidor)
-<pre>
+```
 geth --datadir data-private\
-</pre>
+```
 Ou
 <pre>
 geth --datadir ./data-private/ --rpc --rpcapi "web3,admin"
